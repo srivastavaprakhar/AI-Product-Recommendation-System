@@ -18,21 +18,3 @@ This project demonstrates:
 ✔ Filters the product list based on AI reasoning  
 ✔ Fully modular and extensible  
 ✔ Works with Python **3.13.5**  
-
----
-
-## 📁 Project Structure
-product-recommender/
-│
-├── backend/                 # Backend (FastAPI / Flask / Python service)
-│   ├── app.py               # Main backend application entrypoint
-│   ├── requirements.txt     # Python dependencies
-│
-├── frontend/                # Frontend (React application)
-│   ├── src/
-│   │   ├── App.jsx          # Root React component
-│   │   ├── products.js      # Static or fetched product data
-│   │   ├── index.css        # Global styles
-│   ├── package.json         # Frontend dependencies & scripts
-│
-└── README.md                # Project documentation
