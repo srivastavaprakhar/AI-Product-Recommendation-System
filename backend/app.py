@@ -24,6 +24,7 @@ class Preference(BaseModel):
 
 @app.post("/recommend")
 async def recommend(preference: Preference):
+    print("PRODUCTS SENT TO GEMINI:", preference.products)
 
     # Use correct model
     model = genai.GenerativeModel("gemini-2.5-flash")
