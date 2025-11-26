@@ -7,7 +7,7 @@ function App() {
   const [results, setResults] = useState([]);
 
   const getRecommendations = async () => {
-    const response = await fetch("https://ai-product-recommendation-system-89yz.onrender.com", {
+    const response = await fetch("https://ai-product-recommendation-system-89yz.onrender.com/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
