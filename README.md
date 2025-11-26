@@ -23,12 +23,16 @@ This project demonstrates:
 
 ## 📁 Project Structure
 product-recommender/
-│── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── products.js
-│ │ ├── index.css
-│ ├── package.json
+│
+├── backend/                 # Backend (FastAPI / Flask / Python service)
+│   ├── app.py               # Main backend application entrypoint
+│   ├── requirements.txt     # Python dependencies
+│
+├── frontend/                # Frontend (React application)
+│   ├── src/
+│   │   ├── App.jsx          # Root React component
+│   │   ├── products.js      # Static or fetched product data
+│   │   ├── index.css        # Global styles
+│   ├── package.json         # Frontend dependencies & scripts
+│
+└── README.md                # Project documentation
